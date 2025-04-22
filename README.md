@@ -24,16 +24,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Azure Subscription
 - Microsoft Remote Desktop (for Mac)/ Remote Desktop Connection (for windows)
 - Create an Azure Virtual Machine Windows 10, 4 vCPUs
-Name: osticket-vm / ?
-Username: labuser / ?
-Password: osTicketPassword1! / ?
+Name: _______
+Username: _______
+Password: ____________
 
 Log into the VM with Remote Desktop
 
 Within the VM (osticket-vm), download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
 We will use the files in this folder to install osTicket and some of the dependencies.
 
-- Item 5
 
 <h2>Installation Steps</h2>
 
@@ -45,22 +44,23 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 
 </p>
 <p>
-From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
-From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+- From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
 
-Create the directory C:\PHP
+- Create the directory C:\PHP
 
-From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+- From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
 
-From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
+- From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
 
-From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+- From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+
 Typical Setup ->
 Launch Configuration Wizard (after install) ->
 Standard Configuration ->
-Username: root
-Password: root
+<p style="color: red; Username: root
+Password: root">
 
 </p>
 <br />
