@@ -13,27 +13,34 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Microsoft Remote Desktop (for Mac)/ Remote Desktop Connection (for windows)
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> 
-- Windows 2022</b>
-- Linux
-- Mac OS
+- Windows 10</b> (2H)
 
 <h2>List of Prerequisites</h2>
 
 - Azure Subscription
-- Create a Recourse Group 
-- Network
-- Virtual Machine
+- Microsoft Remote Desktop (for Mac)/ Remote Desktop Connection (for windows)
+- Create an Azure Virtual Machine Windows 10, 4 vCPUs
+Name: osticket-vm / ?
+Username: labuser / ?
+Password: osTicketPassword1! / ?
+
+Log into the VM with Remote Desktop
+
+Within the VM (osticket-vm), download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
+We will use the files in this folder to install osTicket and some of the dependencies.
+
 - Item 5
 
 <h2>Installation Steps</h2>
 
 <p>
+  Install / Enable IIS in Windows WITH CGI
+World Wide Web Services -> Application Development Features -> [X] CGI
+
 <img width="945" alt="Pasted Graphic" src="https://github.com/user-attachments/assets/b71b3561-4da7-4a2a-b4a5-096270d125e9" />
 
 </p>
