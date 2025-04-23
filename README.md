@@ -64,7 +64,10 @@ Password: root">
 
 </p>
 <br />
-<img width="945" alt="Pasted Graphic" src="[https://github.com/user-attachments/assets/277d8826-018f-4d52-85fb-0702ae53e5e5)" />
+<img width="604" alt="Image" src="https://github.com/user-attachments/assets/d59f1b0e-26a2-4a7b-800a-63f845629f73" />
+
+- Then create a Root Password (save in notes)
+- execute 
 </p>
 <p>
 Open IIS as an Admin
