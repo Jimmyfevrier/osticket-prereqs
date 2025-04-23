@@ -64,9 +64,7 @@ Password: root">
 
 </p>
 <br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="945" alt="Pasted Graphic" src="[https://github.com/user-attachments/assets/277d8826-018f-4d52-85fb-0702ae53e5e5)" />
 </p>
 <p>
 Open IIS as an Admin
