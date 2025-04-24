@@ -12,7 +12,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Mac/PC
+- Microsoft Azure (Virtual Machine)
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
@@ -22,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Azure Subscription
-- Microsoft Remote Desktop (for Mac)/ Remote Desktop Connection (for windows)
+- Download Microsoft Remote Desktop (for Mac)/ Remote Desktop Connection (for windows)
 - Create an Azure Virtual Machine Windows 10, 4 vCPUs
 Name: _______
 Username: _______
