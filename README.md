@@ -25,11 +25,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Azure Subscription
 - Download Microsoft Remote Desktop (for Mac)/ Remote Desktop Connection (for windows)
 - Create an Azure Virtual Machine Windows 10, 4 vCPUs
+
 Name: _______
 Username: _______
 Password: ____________
 
+Note: Make sure to save every username and password in a notepad/text.file. Also to turn Stop or delete VM if you are testing or using them temporarily, in doing so you won't get overcharge when not in use. 
+
 Log into the VM with Remote Desktop
+
+<img width="609" alt="Image" src="https://github.com/user-attachments/assets/49dec238-c909-439e-a02d-f179c92f1302" />
 
 Within the VM (osticket-vm), download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
 We will use the files in this folder to install osTicket and some of the dependencies.
@@ -72,8 +77,9 @@ Password: root">
 </p>
 <p>
 Open IIS as an Admin
-
-<img width="827" alt="Image" src="https://github.com/user-attachments/assets/4513e333-9943-49e1-8cbf-24427e55eae6" />
+</p>
+<p>
+<img width="827" alt="Image" src="https://github.com/user-attachments/assets/4513e333-9943-49e1-8cbf-24427e55eae6" /> </p>
 
 Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
 
