@@ -32,12 +32,18 @@ Password: ____________
 
 Note: Make sure to save every username and password in a notepad/text.file. Also to turn Stop or delete VM if you are testing or using them temporarily, in doing so you won't get overcharge when not in use. 
 
-Log into the VM with Remote Desktop
+<p><h2> Step 1: Azure Subscription </h2></p>
+<p>    
+  I made an Azure Subscription. Then I Add a new Virtual Machine (VM) </p> 
+  <p>
+  Note: I can  create a Resource group by either creating the VM option or from creating a Resource group first by creating the VM. From there I after selecting the plan and creating a Username and Password. The plan is to create one VM to practice installing osTicket app, so I made my VM using Windows 10. After excuting the VM,I needed to log into the VM using a Remote Desk top 
+  </p>
+ <p> **Log into the VM with Remote Desktop </p>
 
 <img width="609" alt="Image" src="https://github.com/user-attachments/assets/49dec238-c909-439e-a02d-f179c92f1302" />
 
 Within the VM (osticket-vm), download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
-We will use the files in this folder to install osTicket and some of the dependencies.
+We will use the files in this folder to install osTicket.
 
 
 <h2>Installation Steps</h2>
@@ -46,15 +52,15 @@ We will use the files in this folder to install osTicket and some of the depende
   Install / Enable IIS in Windows WITH CGI
 World Wide Web Services -> Application Development Features -> [X] CGI
 
-[<img width="945" alt="Pasted Graphic" src="[https://github.com/user-attachments/assets/b71b3561-4da7-4a2a-b4a5-096270d125e9](https://github.com/user-attachments/assets/4ead6c21-459f-4ad1-bb70-9d146915101f)" />](https://github.com/user-attachments/assets/4ead6c21-459f-4ad1-bb70-9d146915101f)
+[<img width="750" alt="Pasted Graphic" src="[https://github.com/user-attachments/assets/b71b3561-4da7-4a2a-b4a5-096270d125e9](https://github.com/user-attachments/assets/4ead6c21-459f-4ad1-bb70-9d146915101f)" />](https://github.com/user-attachments/assets/4ead6c21-459f-4ad1-bb70-9d146915101f)
 
 </p>
 <p>
-- From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- From the “osTicket-Installation-Files” folder, I install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
-- From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+- From the “osTicket-Installation-Files” folder I install the Rewrite Module (rewrite_amd64_en-US.msi)
 
-- Create the directory C:\PHP
+- I Create the directory C:\PHP
 
 - From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
 
@@ -65,8 +71,9 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 Typical Setup ->
 Launch Configuration Wizard (after install) ->
 Standard Configuration ->
-<p style="color: red; Username: root
-Password: root">
+
+- Username: root
+- Password: root
 
 </p>
 <br />
