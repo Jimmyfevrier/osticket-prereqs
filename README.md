@@ -32,7 +32,7 @@ Password: ____________
 
 Note: Make sure to save every username and password in a notepad/text.file. Also to turn Stop or delete VM if you are testing or using them temporarily, in doing so you won't get overcharge when not in use. 
 
-<p><h2> Step 1: Azure Subscription </h2></p>
+<p><h2> Azure Subscription </h2></p>
 <p>    
   I made an Azure Subscription. Then I Add a new Virtual Machine (VM) </p> 
   <p>
