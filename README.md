@@ -30,20 +30,26 @@ Name: _______
 Username: _______
 Password: ____________
 
-Note: Make sure to save every username and password in a notepad/text.file. Also to turn Stop or delete VM if you are testing or using them temporarily, in doing so you won't get overcharge when not in use. 
+<h3> Keeping personal data secured </h3>
+
+Note: Make sure to save every username and password is secured within a security Key and/or encrypted filed dedicated in securing passwords. As well, Treat each VM as a like a real PC by installing anit-virus within each VM and keep it's operating system updated. Avoid storing personal data in test VMs, and limit users accounts so not every account has Admin controls. 
 
 <p><h2> Azure Subscription </h2></p>
 <p>    
-  I made an Azure Subscription. Then I Add a new Virtual Machine (VM) </p> 
+  I enrolled in a free Azure Subscription. Then I Add a new Virtual Machine (VM) </p> 
   <p>
-  Note: I can  create a Resource group by either creating the VM option or from creating a Resource group first by creating the VM. From there I after selecting the plan and creating a Username and Password. The plan is to create one VM to practice installing osTicket app, so I made my VM using Windows 10. After excuting the VM,I needed to log into the VM using a Remote Desk top 
+  Note: I can create a Resource group within it's options or in the creating the VM process. Also Stop or delete VM you are testing or temporarily using once done (in doing so you won't get overcharge when not in use).
+    
+- I then select the type of VM I want to run and created a Username and Password.
+
+After excuting the VM, I logged into the VM using a Microsoft Remote Desktop. 
   </p>
- <p> **Log into the VM with Remote Desktop </p>
+ <p> **Logging into the VM with Micsrosoft Remote Desktop </p>
 
 <img width="609" alt="Image" src="https://github.com/user-attachments/assets/49dec238-c909-439e-a02d-f179c92f1302" />
 
-Within the VM (osticket-vm), download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
-We will use the files in this folder to install osTicket.
+Within the VM (osticket-vm) file, I download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
+I used the files in this folder to install osTicket.
 
 
 <h2>Installation Steps</h2>
@@ -56,6 +62,8 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 
 </p>
 <p>
+  <h4> Installation steps </h4>
+  
 - From the “osTicket-Installation-Files” folder, I install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
 - From the “osTicket-Installation-Files” folder I install the Rewrite Module (rewrite_amd64_en-US.msi)
