@@ -35,8 +35,11 @@ Password: ____________
 Note: Make sure to save every username and password is secured within a security Key and/or encrypted filed dedicated in securing passwords. As well, Treat each VM as a like a real PC by installing anit-virus within each VM and keep it's operating system updated. Avoid storing personal data in test VMs, and limit users accounts so not every account has Admin controls. 
 
 <p><h2> Azure Subscription </h2></p>
+
+<p><h1> Step 1:</h1></p>
 <p>    
-  I enrolled in a free Azure Subscription. Then I Add a new Virtual Machine (VM) </p> 
+  - enrolled in a free Azure Subscription. 
+  - Add a new Virtual Machine (VM) </p> 
   <p>
   Note: I can create a Resource group within it's options or in the creating the VM process. Also Stop or delete VM you are testing or temporarily using once done (in doing so you won't get overcharge when not in use).
     
