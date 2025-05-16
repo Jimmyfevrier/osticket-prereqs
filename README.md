@@ -35,7 +35,7 @@ Password: ____________
 Note: Make sure to save every username and password is secured within a security Key and/or encrypted filed dedicated in securing passwords. As well, Treat each VM as a like a real PC by installing anit-virus within each VM and keep it's operating system updated. Avoid storing personal data in test VMs, and limit users accounts so not every account has Admin controls. 
 
 
-<p><h1> Step 1: Azure Subscription<h1></p>
+<p><h1> Step 1: Azure Subscription</h1></p>
   <br />
 <p>    
   - enrolled in a free Azure Subscription. 
@@ -50,9 +50,12 @@ Note: Make sure to save every username and password is secured within a security
   
   <p><h1> Step 2: Created a Resource Group </h1> </p>
   <p>
-    - On the search bar type & Select "Resource Group"
-    - Select Create a Resourse Option
-    - Name your Group and select a Region (Region = where your data will be stored)
+    
+  - On the search bar type & Select "Resource Group" 
+  - Select the "Create" option
+  - Name your Group and select a Region (Region = where your data will be stored)
+    ~side note: (optional) but you can create a tag by naming it who you want the owner to be.
+  - Review & Create 
     
   Note: Resource group are like folders or containers that allows you to create VM within them.
 
@@ -71,9 +74,15 @@ Note: Make sure to save every username and password is secured within a security
     Note: Creating a encryted Key is more secured  
 - Select the Image type  you are using and Specs you want it to have (remember to Select the box in bottom if selecting a Windows VM) 
     Note: any thing less than "Standard_D2s_v3 - 2 vcpus, 8 GiB memory ($70.08/month)" may result to really slow performance. 
+- Goto Network Tab
+- Create a new Security Group if you haven't done so already. 
+- Inbound port set "RDP 3389"
+    Note: this will allow all Ipaddress to in gain Remote accesses to VM until you set secrity parameters.
 
-
-  
+- Click Review and Create
+<p>
+<img width="609" alt="Image" src="https://github.com/user-attachments/assets/a95b57d6-13e7-4bd4-a0e9-617f74e583ff)"
+</p>
     Note: Also Stop or delete VM when you are testing or temporarily using one when done (in doing so you won't get overcharge when not in use).
 
 
