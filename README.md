@@ -45,6 +45,9 @@ Note: Make sure to save every username and password is secured within a security
 <p>
 <img width="609" alt="Image" src="https://github.com/user-attachments/assets/79959c6c-590f-4201-927d-b3e4aa22e2b4"  
   - Add a new Virtual Machine (VM) </p> 
+
+<P> Azure Subscriptions is like a cloud server rental space which also allows users to create and control multiple subscriptions so it can be more cost effective for companies. </P>
+  
   <p><h1> Step 2: Created a Resource Group </h1> </p>
   <p>
     - On the search bar type & Select "Resource Group"
@@ -52,10 +55,27 @@ Note: Make sure to save every username and password is secured within a security
     - Name your Group and select a Region (Region = where your data will be stored)
     
   Note: Resource group are like folders or containers that allows you to create VM within them.
-    
-- Also Stop or delete VM you are testing or temporarily using once done (in doing so you won't get overcharge when not in use).
-    
-- I then select the type of VM I want to run and created a Username and Password.
+
+  <p>
+<img width="609" alt="Image" src="https://github.com/user-attachments/assets/7c4721b8-4a86-44a7-ab8c-4e8a80d64041"    
+ </p>
+   
+   <p><h1> Step 3: Created a Virtual Machine </h1> </p> 
+- On the search bar type VM and select Virtual Machine 
+- Click on the Create button
+- Select your Subscription
+- Select which Resource Group 
+- Create Username for the VM window. 
+- Select the Region 
+- Creat a Password (gives options to create your own Password or create an Key)
+    Note: Creating a encryted Key is more secured  
+- Select the Image type  you are using and Specs you want it to have (remember to Select the box in bottom if selecting a Windows VM) 
+    Note: any thing less than "Standard_D2s_v3 - 2 vcpus, 8 GiB memory ($70.08/month)" may result to really slow performance. 
+
+
+  
+    Note: Also Stop or delete VM when you are testing or temporarily using one when done (in doing so you won't get overcharge when not in use).
+
 
 After excuting the VM, I logged into the VM using a Microsoft Remote Desktop. 
   </p>
