@@ -34,14 +34,26 @@ Password: ____________
 
 Note: Make sure to save every username and password is secured within a security Key and/or encrypted filed dedicated in securing passwords. As well, Treat each VM as a like a real PC by installing anit-virus within each VM and keep it's operating system updated. Avoid storing personal data in test VMs, and limit users accounts so not every account has Admin controls. 
 
-<p><h2> Azure Subscription </h2></p>
 
-<p><h1> Step 1:</h1></p>
+<p><h1> Step 1: Azure Subscription<h1></p>
+  <br />
 <p>    
   - enrolled in a free Azure Subscription. 
+  
+    Note: it gives you $200 free credit for a month for every new subscription (per new email)
+</p>
+<p>
+<img width="609" alt="Image" src="https://github.com/user-attachments/assets/79959c6c-590f-4201-927d-b3e4aa22e2b4"  
   - Add a new Virtual Machine (VM) </p> 
+  <p><h1> Step 2: Created a Resource Group </h1> </p>
   <p>
-  Note: I can create a Resource group within it's options or in the creating the VM process. Also Stop or delete VM you are testing or temporarily using once done (in doing so you won't get overcharge when not in use).
+    - On the search bar type & Select "Resource Group"
+    - Select Create a Resourse Option
+    - Name your Group and select a Region (Region = where your data will be stored)
+    
+  Note: Resource group are like folders or containers that allows you to create VM within them.
+    
+- Also Stop or delete VM you are testing or temporarily using once done (in doing so you won't get overcharge when not in use).
     
 - I then select the type of VM I want to run and created a Username and Password.
 
@@ -72,7 +84,7 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 - From the “osTicket-Installation-Files” folder I install the Rewrite Module (rewrite_amd64_en-US.msi)
 
 - I Create the directory C:\PHP
-
+  
 - From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
 
 - From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
