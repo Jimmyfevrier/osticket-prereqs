@@ -64,22 +64,35 @@ Note: Make sure to save every username and password is secured within a security
  </p>
    
    <p><h1> Step 3: Created a Virtual Machine </h1> </p> 
+   <p>
+     
 - On the search bar type VM and select Virtual Machine 
+     
 - Click on the Create button
+  
 - Select your Subscription
-- Select which Resource Group 
-- Create Username for the VM window. 
-- Select the Region 
+  
+- Select which Resource Group
+   
+- Create Username for the VM window.
+   
+- Select the Region
+   
 - Creat a Password (gives options to create your own Password or create an Key)
-    Note: Creating a encryted Key is more secured  
+    Note: Creating a encryted Key is more secured
+    
 - Select the Image type  you are using and Specs you want it to have (remember to Select the box in bottom if selecting a Windows VM) 
-    Note: any thing less than "Standard_D2s_v3 - 2 vcpus, 8 GiB memory ($70.08/month)" may result to really slow performance. 
+    Note: any thing less than "Standard_D2s_v3 - 2 vcpus, 8 GiB memory ($70.08/month)" may result to really slow performance.
+   
 - Goto Network Tab
-- Create a new Security Group if you haven't done so already. 
+  
+- Create a new Security Group if you haven't done so already.
+  
 - Inbound port set "RDP 3389"
     Note: this will allow all Ipaddress to in gain Remote accesses to VM until you set secrity parameters.
 
 - Click Review and Create
+  </p>
 <p>
 <img width="609" alt="Image" src="https://github.com/user-attachments/assets/a95b57d6-13e7-4bd4-a0e9-617f74e583ff)"
 </p>
